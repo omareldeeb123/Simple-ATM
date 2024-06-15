@@ -1,8 +1,6 @@
 import java.util.Scanner;
 
 public class ATM {
-
-
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Welcome to El-DeeB bank");
@@ -15,11 +13,7 @@ int home =1;
 
           boolean menu = true;
 
-
-
         boolean check = true;
-
-
 
         int index = -1;
         while (index == -1) {
@@ -104,7 +98,6 @@ int home =1;
                        break;
                    case 0:
                        menu = false;
-
                        break;
                    default:
                        System.out.println("Invalid choice.");
@@ -117,12 +110,8 @@ int home =1;
         System.out.println("To return home : 1");
         System.out.println("To exit : 0");
 
-
-
-
         home = input.nextInt();
 
-
-
+        }
     }
-}}
+}
